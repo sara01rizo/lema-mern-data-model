@@ -1,4 +1,4 @@
-import User from '../models/User.js';
+import User from "../models/User.js";
 
 export const getUser = async (req, res) => {
   try {
@@ -9,6 +9,7 @@ export const getUser = async (req, res) => {
     res.status(404).json({ message: error.message });
   }
 };
+
 
 // Pass the :id to grab the user
 //

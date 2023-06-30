@@ -5,7 +5,7 @@ export const getProducts = async (req, res) => {
   try {
     const products = await Product.find();
 
-    const ProductWithStatus = await Promise.all(
+    const productsWithStats = await Promise.all(
       products.map(async (product) => {
         const stat = await ProductStat.find({
           productId: product._id
@@ -22,3 +22,5 @@ export const getProducts = async (req, res) => {
     res.status(404).json({ message: error.message });
   }
 };
+
+// wait for it: agreggate type functions

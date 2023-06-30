@@ -4,6 +4,7 @@ import { Outlet } from 'react-router';
 import { useSelector } from 'react-redux';
 import Navbar from '../../components/Navbar';
 import Sidebar from 'components/Sidebar';
+import { useGetDashboardQuery } from 'state/api';
 
 const Layout = () => {
   const isNonMobile = useMediaQuery("(min-width: 600px)");

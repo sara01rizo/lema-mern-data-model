@@ -90,11 +90,11 @@ const Products = () => {
   const isNonMobile = useMediaQuery("(min-width: 800px)");
 
   return (
-    <Box m="1.5rem 2.5rem">
+    <Box m="1.5rem 1.5rem 5.5rem">
       <Header title="PRODUCTS" subtitle="See your list of products." />
       {data || !isLoading ? (
         <Box
-          mt="20px"
+          ml="237px"
           display="grid"
           gridTemplateColumns="repeat(4, minmax(0, 1fr))"
           justifyContent="space-between"

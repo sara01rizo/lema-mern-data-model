@@ -94,7 +94,7 @@ const Products = () => {
       <Header title="PRODUCTS" subtitle="See your list of products." />
       {data || !isLoading ? (
         <Box
-          ml="237px"
+          ml="15.2rem"
           display="grid"
           gridTemplateColumns="repeat(4, minmax(0, 1fr))"
           justifyContent="space-between"

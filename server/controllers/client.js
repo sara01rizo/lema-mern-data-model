@@ -2,7 +2,6 @@ import Product from "../models/Product.js";
 import ProductStat from "../models/ProductStat.js";
 import Transaction from "../models/Transaction.js";
 import User from "../models/User.js";
-import Transaction from "../models/Transaction.js";
 
 export const getProducts = async (req, res) => {
   try {
@@ -35,7 +34,7 @@ export const getCustomers = async (req, res) => {
   }
 };
 
-export const getTransaction  = async (req, res) => {
+export const getTransactions  = async (req, res) => {
   try {
     // sending sort: { "field", "userId", "sort: desc" }
     const { page = 1, pageSize = 20, sort = null, search = "" } = req.query;

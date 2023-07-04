@@ -84,15 +84,15 @@ export const getGeography = async (req, res) => {
       }
       acc[countryISO3]++;
       return acc;
-    },{});
+    }, {});
 
-    const formattedLocations = Object.entries(mappedLocations).map()(
-        ([country, count]) => {
-          return { id: country, value: count }
-        }
-      );
+    const formattedLocations = Object.entries(mappedLocations).map(
+      ([country, count]) => {
+        return { id: country, value: count };
+      }
+    );
 
-      res.status(200).json(formattedLocations);
+    res.status(200).json(formattedLocations);
   } catch (error) {
     res.status(404).json({ message: error.message });
   }

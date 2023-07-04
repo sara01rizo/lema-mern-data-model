@@ -58,7 +58,7 @@ const Transactions = () => {
       <Header
         ml="15rem"
         title="TRANSACTIONS"
-        subtitle="Entire list of transactions" />
+        subtitle="List of all transactions" />
       <Box
         height="80vh"
         sx={{

@@ -61,6 +61,7 @@ const Transactions = () => {
         subtitle="List of all transactions" />
       <Box
         height="80vh"
+        ml="15rem"
         sx={{
           "& .MuiDataGrid-root": {
             border: "none",

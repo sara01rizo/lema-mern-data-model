@@ -73,7 +73,7 @@ export const getTransactions  = async (req, res) => {
   }
 };
 
-export const getGeography = async (req, res) => {
+export const getStatistics = async (req, res) => {
   try {
     const users = await User.find();
 

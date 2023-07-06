@@ -9,9 +9,11 @@ import Dashboard from "./scenes/dasboard";
 import Products from "./scenes/products";
 import Customers from "./scenes/customers";
 import Transactions from "./scenes/transactions";
-import Geography from "./scenes/geography";
+import Statistics from "./scenes/statistics";
 import Overview from "./scenes/overview";
 import Daily from "./scenes/daily";
+import Monthly from "./scenes/monthly";
+import Breakdown from "./scenes/breakdown";
 
 
 function App() {
@@ -28,11 +30,13 @@ function App() {
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/products" element={<Products />} />
               <Route path="/customers" element={<Customers />} />
-              <Route path="/geography" element={<Geography />} />
+              <Route path="/statistics" element={<Statistics />} />
               <Route path="/transactions" element={<Transactions />} />
               <Route path="/overview" element={<Overview />} />
               <Route path="/transactions" element={<Transactions />} />
               <Route path="/daily" element={<Daily />} />
+              <Route path="/monthly" element={<Monthly />} />
+              <Route path="/breakdown" element={<Breakdown />} />
             </Route>
           </Routes>
         </ThemeProvider>

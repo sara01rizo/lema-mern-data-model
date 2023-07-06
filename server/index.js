@@ -16,12 +16,14 @@ import User from "./models/User.js";
 import Product from "./models/Product.js";
 import ProductStat from "./models/ProductStat.js";
 import Transaction from "./models/Transaction.js";
+import AffiliateStat from './models/AffiliateStat.js';
 import {
   dataUser,
   dataProduct,
   dataProductStat,
   dataTransaction,
   dataOverallStat,
+  dataAffiliateStat,
  } from "./data/index.js";
 
 
@@ -52,6 +54,7 @@ mongoose
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
     // This only add data one time
+    // AffiliateStat.insertMany(dataAffiliateStat);
     // OverallStat.insertMany(dataOverallStat);
     // Product.insertMany(dataProduct);
     // ProductStat.insertMany(dataProduct);

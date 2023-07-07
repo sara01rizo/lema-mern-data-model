@@ -19,7 +19,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import BreakdownChart from "components/BreakdownChart";
 import OverviewChart from "components/OverviewChart";
 import { useGetDashboardQuery } from "state/api";
-import StatBox from "components/StatBox";
+import StatBox from "components/Statbox";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -58,23 +58,25 @@ const Dashboard = () => {
   ];
 
   return (
-    <Box m="1.5rem 2.5rem">
+    <Box m="1.5rem 2.5rem" ml="17rem">
       <FlexBetween>
         <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
 
-        <Box>
-          <Button
-            sx={{
-              backgroundColor: theme.palette.secondary.light,
-              color: theme.palette.background.alt,
-              fontSize: "14px",
-              fontWeight: "bold",
-              padding: "10px 20px",
-            }}
-          >
-            <DownloadOutlined sx={{ mr: "10px" }} />
-            Download Reports
-          </Button>
+        <Box display="flex" ml="17rem">
+          <Box justifyContent="end">
+            <Button
+                sx={{
+                  backgroundColor: theme.palette.secondary.light,
+                  color: theme.palette.background.alt,
+                  fontSize: "14px",
+                  fontWeight: "bold",
+                  padding: "10px 20px",
+                }}
+                >
+              <DownloadOutlined sx={{ mr: "10px" }} />
+              Download Reports
+            </Button>
+          </Box>
         </Box>
       </FlexBetween>
 

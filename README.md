@@ -95,3 +95,50 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+This is a [React.js](https://react.dev/) project bootstrapped with [`create-react-app`](https://react.dev/).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+Client
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
+
+Server
+Open [http://localhost:5001](http://localhost:5001) with your browser to see the result.
+
+You can start editing the page by modifying `/index.js`.
+
+This project uses [`express`](https://expressjs.com/de/) Schnelles, offenes, unkompliziertes Web-Framework für Node.js.
+
+## Learn More
+
+To learn more about Nodemon, take a look at the following resources:
+
+- [Nodemon Documentation](https://nodemon.io/) - learn about Nodemon documentation.
+
+You can check out [Repo on GitHub - LEMA MERN](https://github.com/sara01rizo/lema-mern-data-model) - your feedback and contributions are welcome!
+
+## Deploy

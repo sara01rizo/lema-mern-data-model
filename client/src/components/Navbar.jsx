@@ -25,11 +25,7 @@ import {
   //Light
 } from "@mui/icons-material";
 
-const Navbar = ({
-  user,
-  isSidebarOpen,
-  setIsSidebarOpen,
-}) => {
+const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
   const dispatch = useDispatch();
   const theme = useTheme();
 

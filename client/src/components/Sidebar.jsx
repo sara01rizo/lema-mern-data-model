@@ -107,6 +107,8 @@ const Sidebar = ({
     setActive(pathname.substring(1));
   }, [pathname]);
 
+  const [color, setColor] = useState(theme.palette.dritte[200]);
+
   return (
     <Box component="nav">
       {isSidebarOpen && (
@@ -115,10 +117,11 @@ const Sidebar = ({
           onClose={() => setIsSidebarOpen(false)}
           variant="persistent"
           anchor="left"
+          onMouseEnter={() => setColor(theme.palette.dritte[200])}
           sx={{
             width: drawerWidth,
             "& .MuiDrawer-paper": {
-              color: theme.palette.secondary[200],
+              color: theme.palette.dritte[100],
               backgroundColor: theme.palette.background.alt,
               boxSixing: "border-box",
               borderWidth: isNonMobile ? 0 : "2px",

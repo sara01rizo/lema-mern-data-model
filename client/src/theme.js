@@ -40,6 +40,18 @@ export const tokensDark = {
       800: "#000066",
       900: "#000033",
   },
+  dritte: {
+      100: "#d5f3ef",
+      200: "#abe7de",
+      300: "#80dbce",
+      400: "#56cfbd",
+      500: "#2cc3ad",
+      600: "#239c8a",
+      700: "#1a7568",
+      800: "#124e45",
+      900: "#092723"
+  },
+
 };
 
 // function that reverses the color palette
@@ -76,6 +88,10 @@ export const themeSettings = (mode) => {
               ...tokensDark.secondary,
               main: tokensDark.secondary[300],
             },
+            dritte: {
+              ...tokensDark.dritte,
+              main: tokensDark.dritte[200],
+            },
             neutral: {
               ...tokensDark.grey,
               main: tokensDark.grey[500],
@@ -96,6 +112,10 @@ export const themeSettings = (mode) => {
               ...tokensLight.secondary,
               main: tokensDark.secondary[600],
               light: tokensDark.secondary[700],
+            },
+            dritte: {
+              ...tokensDark.dritte,
+              main: tokensDark.dritte[200],
             },
             neutral: {
               ...tokensLight.grey,

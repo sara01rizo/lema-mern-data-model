@@ -135,6 +135,7 @@ const Sidebar = ({
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
                     LEMA-MERN
+                    <img src="" alt="logo" />
                   </Typography>
                 </Box>
                 {!isNonMobile && (
@@ -195,7 +196,7 @@ const Sidebar = ({
             </List>
           </Box>
 
-          <Box position="absolute" bottom="2rem">
+          <Box position="unset" bottom="2rem">
             <Divider />
             <FlexBetween textTransform="none" gap="1rem" m="1.5rem 2rem 0 3rem">
               <Box

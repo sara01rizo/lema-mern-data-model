@@ -51,9 +51,9 @@ const Customers = () => {
 
   return (
     <Box m="1.5rem 2.5rem">
-      <Header
-      ml="15rem"
-      title="CUSTOMERS" subtitle="List of Customers" />
+        <Box ml="6.5rem" >
+          <Header title="CUSTOMERS" subtitle="List of Customers" />
+        </Box>
       <Box
         mt="40px"
         ml="15rem"

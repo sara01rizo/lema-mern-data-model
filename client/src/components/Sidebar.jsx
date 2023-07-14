@@ -31,6 +31,7 @@ import {
   PieChartOutlined,
 } from "@mui/icons-material";
 import profileImage from "assets/profile.png";
+import { width } from '@mui/system';
 
 const navItems = [
   {
@@ -135,7 +136,6 @@ const Sidebar = ({
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
                     LEMA-MERN
-                    <img src="" alt="logo" />
                   </Typography>
                 </Box>
                 {!isNonMobile && (

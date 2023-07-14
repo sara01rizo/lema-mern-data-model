@@ -8,10 +8,9 @@ const Overview = () => {
 
   return (
     <Box m="1.5rem 2.5rem">
-      <Header
-        title="OVERVIEW"
-        subtitle="Overview of general revenue and profit"
-      />
+      <Box ml="6.5rem">
+        <Header title="OVERVIEW" subtitle="Overview of general revenue and profit" />
+      </Box>
       <Box height="75vh" ml="15rem">
         <FormControl sx={{ mt: "1rem" }}>
           <InputLabel>View</InputLabel>

@@ -55,10 +55,9 @@ const Transactions = () => {
 
   return (
     <Box m="1.5rem 2.5rem">
-      <Header
-        ml="15rem"
-        title="TRANSACTIONS"
-        subtitle="List of all transactions" />
+      <Box ml="6.5rem">
+        <Header title="TRANSACTIONS" subtitle="List of all transactions" />
+      </Box>
       <Box
         height="80vh"
         ml="15rem"

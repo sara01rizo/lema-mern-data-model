@@ -27,7 +27,7 @@ MERN - Node, React, React-Redux, Express, MongoDB, MuiMaterial, LEMA
 
 ## **Deployment**
 
-Deploy on: [ LEMA-MERN-DATA-MODEL ](https://mern-admin-frontend-wych.onrender.com/dashboard) Render
+Deploy on: [ LEMA-MERN-DATA-MODEL ](https://mern-admin-frontend-wych.onrender.com/dashboard) Render free and slow but free version.
 
 
 ## Setup

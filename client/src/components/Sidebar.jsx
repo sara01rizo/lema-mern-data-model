@@ -31,7 +31,6 @@ import {
   PieChartOutlined,
 } from "@mui/icons-material";
 import profileImage from "assets/profile.png";
-import { width } from '@mui/system';
 
 const navItems = [
   {

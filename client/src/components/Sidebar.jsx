@@ -135,7 +135,6 @@ const Sidebar = ({
                 <Box display="flex" alignItems="center" gap="0.5rem">
                   <Typography variant="h4" fontWeight="bold">
                     LEMA-MERN
-                    <img src="" alt="logo" />
                   </Typography>
                 </Box>
                 {!isNonMobile && (

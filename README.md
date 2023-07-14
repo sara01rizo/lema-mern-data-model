@@ -1,28 +1,42 @@
+<p align="center">
+  <img src="https://github.com/sara01rizo/lema-mern-data-model/blob/master/client/src/assets/logo.png?raw=true"/>
+</p>
+
 # LEMA MERN DATA MODEL
 
 MERN - Node, React, React-Redux, Express, MongoDB, MuiMaterial, LEMA
 
 ## Stack
 
-Node: https://nodejs.org/en/download/
-NPX: https://www.npmjs.com/package/npx
-VSCode: https://code.visualstudio.com/download
-Nodemon: https://github.com/remy/nodemon
-Material UI: https://mui.com/material-ui/getting-s...
-Material UI Data Grid: https://mui.com/x/react-data-grid/
-Nivo: https://nivo.rocks/
-React Router: https://reactrouter.com/en/v6.3.0/get...
-React Date Picker: https://reactdatepicker.com/#example-...
-Redux Toolkit: https://redux-toolkit.js.org/introduc...
-Redux Toolkit Query: https://redux-toolkit.js.org/rtk-quer...
-Dotenv: https://github.com/motdotla/dotenv
-JsonWebToken: https://github.com/auth0/node-jsonweb...
-Google Fonts: https://fonts.google.com/
-Render: https://render.com/
-Railway: https://railway.app/
-MongoDB: https://www.mongodb.com/
-Mongoose: https://github.com/Automattic/mongoose
-MongoDB Aggregate: https://www.mongodb.com
+- [Node.js](https://nodejs.org/)
+- [Rect](https://react.dev/)
+- [VSCode](https://code.visualstudio.com/)
+- [Nodemon](https://nodemon.io/)
+- [Express.js](https://expressjs.com/de/)
+- [React Router](https://reactrouter.com/en/main)
+- [React Date Picker](https://reactdatepicker.com/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Nivo](https://nivo.rocks/)
+- [Dotenv](https://www.dotenv.org/)
+- [Render](https://render.com/)
+- [MongoDB](https://www.mongodb.com/de-de) 
+- [Mongoose](https://mongoosejs.com/)
+- [Redux Toolkit Query](https://redux-toolkit.js.org/rtk-query/overview)
+- [JsonWebToken](https://jwt.io/)
+- [GoogleFonts](https://fonts.google.com/)
+
+## **Deployment**
+
+Deploy on: [ LEMA-MERN-DATA-MODEL ](https://mern-admin-frontend-wych.onrender.com/dashboard) Render
+
+
+## Setup
+
+**1. Clone repository**
+
+```shell
+git clone https://github.com/sara01rizo/lema-mern-data-model
+```
 
 
 ## Getting Started with Create React App
@@ -66,12 +80,6 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
@@ -88,27 +96,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-This is a [React.js](https://react.dev/) project bootstrapped with [`create-react-app`](https://react.dev/).
 
 ## Getting Started
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 Client
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
@@ -140,5 +132,3 @@ To learn more about Nodemon, take a look at the following resources:
 - [Nodemon Documentation](https://nodemon.io/) - learn about Nodemon documentation.
 
 You can check out [Repo on GitHub - LEMA MERN](https://github.com/sara01rizo/lema-mern-data-model) - your feedback and contributions are welcome!
-
-## Deploy
